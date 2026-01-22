@@ -1,12 +1,10 @@
 # .coderabbit.yaml
 language: en
 # Enables advanced reviews
-review:
+reviews:
   auto_review:
     enabled: true
-  enabled: true
-  # Only trigger PRs targeting these branches
-  include_branches:
-    - main
-    - dev
-# Optional: Set up specific rules or ignore patterns
+    branches:
+      - main
+      - dev
+
