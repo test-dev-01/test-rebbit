@@ -2,6 +2,8 @@
 language: en
 # Enables advanced reviews
 review:
+  auto_review:
+    enabled: true
   enabled: true
   # Only trigger PRs targeting these branches
   include_branches:
